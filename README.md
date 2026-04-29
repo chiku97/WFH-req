@@ -18,6 +18,7 @@ This project is a serverless application designed to be deployed on Vercel. It l
 | `SMTP_PASS` | Your email password or app password | `your-app-password` |
 | `SENDER_EMAIL` | The email address to send from (optional, defaults to SMTP_USER) | `your-email@gmail.com` |
 | `TARGET_EMAIL` | The email address to send the WFH request TO | `hr@yourcompany.com` |
+| `CC_EMAIL` | The email address to CC on the message (or multiple separated by commas) | `hr@yourcompany.com,manager@yourcompany.com` |
 | `WHATSAPP_SENDER` | The expected sender WhatsApp number (must include `whatsapp:` and country code) | `whatsapp:+919708151418` |
 | `WHATSAPP_RECEIVER` | The expected receiver WhatsApp number (your Twilio number) | `whatsapp:+918147747120` |
 

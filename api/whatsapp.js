@@ -54,6 +54,7 @@ module.exports = async function handler(req, res) {
     const mailOptions = {
       from: process.env.SENDER_EMAIL || process.env.SMTP_USER,
       to: targetEmail,
+      cc: process.env.CC_EMAIL, // Will be ignored by Nodemailer if undefined
       subject: 'Work From Home Request',
       text: 'Hi Team,\n\nI will be working from home today.\n\nThanks,',
     };
