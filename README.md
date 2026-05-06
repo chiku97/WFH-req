@@ -1,6 +1,6 @@
 # WFH WhatsApp Automation
 
-This project is a serverless application designed to be deployed on Vercel. It listens for a WhatsApp message containing "WFH" and triggers an automated email.
+This project is a serverless application designed to be deployed on Vercel. It listens for a WhatsApp message containing "WFH" or "wfh" and triggers an automated email using your gmail SMTP. This is best for you, if you are too lazy to write WFH mail everytime.
 
 ## Setup Instructions
 
