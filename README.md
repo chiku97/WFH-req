@@ -19,8 +19,8 @@ This project is a serverless application designed to be deployed on Vercel. It l
 | `SENDER_EMAIL` | The email address to send from (optional, defaults to SMTP_USER) | `your-email@gmail.com` |
 | `TARGET_EMAIL` | The email address to send the WFH request TO | `hr@yourcompany.com` |
 | `CC_EMAIL` | The email address to CC on the message (or multiple separated by commas) | `hr@yourcompany.com,manager@yourcompany.com` |
-| `WHATSAPP_SENDER` | The expected sender WhatsApp number (must include `whatsapp:` and country code) | `whatsapp:+919708151418` |
-| `WHATSAPP_RECEIVER` | The expected receiver WhatsApp number (your Twilio number) | `whatsapp:+918147747120` |
+| `WHATSAPP_SENDER` | The expected sender WhatsApp number (must include `whatsapp:` and country code) | `whatsapp:+911122334455` |
+| `WHATSAPP_RECEIVER` | The expected receiver WhatsApp number (your Twilio number) | `whatsapp:+911122334455` |
 
 ### 2. Set up WhatsApp Webhook (Twilio)
 1. Log into your [Twilio Console](https://www.twilio.com/console).
